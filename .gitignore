@@ -1,0 +1,17 @@
+
+# Secrets and credentials
+.env
+*.pem
+*.key
+.aws/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/crash.log
+
+# Local files
+.DS_Store
+Thumbs.db
